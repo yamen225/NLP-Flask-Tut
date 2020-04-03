@@ -9,7 +9,7 @@ class Config(object):
     SECRET_KEY = 'this-really-needs-to-be-changed'
 
 
-class ProductionConfig(config):
+class ProductionConfig(Config):
     DEBUG = False
 
 
@@ -23,5 +23,5 @@ class DevelopmentConfig(Config):
     DEBUG = True
 
 
-class TestingConfig(config):
+class TestingConfig(Config):
     TESTING = True
