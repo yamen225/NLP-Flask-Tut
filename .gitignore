@@ -1,2 +1,8 @@
 #environmenrt
 /env/
+
+#pyc files
+**.pyc
+**/__pycache__/
+/.idea/
+/__pycache__/config.cpython-36.pyc
