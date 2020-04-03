@@ -6,3 +6,6 @@
 **/__pycache__/
 /.idea/
 /__pycache__/config.cpython-36.pyc
+
+#environment file
+.env
